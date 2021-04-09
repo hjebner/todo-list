@@ -175,7 +175,7 @@ export default{
     },
 
     // Alert at time to Delete
-    
+
     alertTodo: function(todo) {
       this.alert = true;
       this.todoSelected = todo;
@@ -194,7 +194,7 @@ export default{
       let vm = this; // this tomar notas! 
       var exists = this.todos.filter( function(item) { return item.text.toLowerCase() === vm.input.text.toLowerCase() });
       
-      // Count the number of words with inside the todos
+      // Count the number of words inside the todos
       console.log(exists.length);
 
       // If exists is equal to 0 means that doesn't exists then we create the new Task
