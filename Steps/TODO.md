@@ -4,15 +4,11 @@
         https://tailwindcss.com/docs/guides/vue-3-vite
      -->
 
-2.  - [] Add Vue.js to index.html (or) Install vue to Computer.
-
-    <!-- Form -->
-
-3.  - [] Create New Todo Form ==> "./components/TodoListe.vue"
+2.  - [] Create New Todo Form and call it from App.vue ==> "./components/TodoListe.vue"
 
     <!-- Import TodoList -->
 
-4.  - [] Call a function when the form is submitted
+3.  - [] Call a function when the form is submitted
 
  <!-- Table&Text&Input -->
 
@@ -25,7 +21,7 @@
      <!-- Add New To-Do  -->
      <!-- Functions Creation -->
 
-7.  - [] Log the user input when the form is submitted
+7.  - [] Get the To-Do from LocalStorage using the Mounted
 
 8.  - [] Create an array property on our data for todos
 
