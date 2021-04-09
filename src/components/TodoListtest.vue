@@ -113,7 +113,7 @@
             </h3>
             <div class="mt-2">
               <p class="text-sm text-gray-500">
-                Sind Sie sicher, dass Sie diese Aufgabe löchsen möchte.
+                Sind Sie sicher, dass Sie diese Aufgabe löschen möchte.
               </p>
             </div>
           </div>
@@ -142,15 +142,16 @@ export default{
 
   data() {
     return{
-      input:{text:""},
-      todos:[],
-      alert: false,
-      todoSelected:null
+      input:{text:""},        //Here I read the data as text
+      todos:[],              // Create a array to call the To-Do 
+      alert: false,         // Create an alert from Modal (False to avoid showing up at loading) 
+      todoSelected:null    // 
     }
   },
 
 // Call to the localStorage
   
+
   mounted(){
     if (localStorage.getItem('todos')){
       this.todos = JSON.parse(localStorage.getItem('todos'));
@@ -170,7 +171,6 @@ export default{
   
   methods: {
     currentDate(){
-      moment.locale('DE')
       return moment().format("DD.MM.Y H:mm")
     },
 
@@ -206,8 +206,8 @@ export default{
     },
 
     completedTodo(index){
+  
       index.completed = !index.completed;
-      index.open = !index.open;
       if(index.completed){
         index.completed_at = this.currentDate();
       }else{

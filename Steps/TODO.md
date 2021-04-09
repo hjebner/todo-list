@@ -1,11 +1,8 @@
 # Vue.js Todo App
 
-1.  <!-- Install everything from vuejs.org
-    1. npm install vue@next
-    2. npm init @vitejs/app <project-name>
-    3. cd <project-name>
-    4. npm install
-    5. npm run dev  -->
+1.  <!-- Install everything from vuejs.org and Tailwindcss
+        https://tailwindcss.com/docs/guides/vue-3-vite
+     -->
 
 2.  - [] Add Vue.js to index.html (or) Install vue to Computer.
 
