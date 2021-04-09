@@ -16,7 +16,7 @@
   <div class="flex justify-center bg-indigo-300 py-2">
     <form v-on:submit.prevent="addNewTodo">
       <input type="text" v-model="input.text" class="py-0.5 text-center border-indigo-900 border focus:ring-100">
-      <button type="submit" class="ml-3 py-1 px-3 bg-indigo-800 text-white hover:bg-white hover:text-indigo-800 text-sm uppercase" @click="panel=true">Add Todo</button>
+      <button type="submit" class="ml-3 py-1 px-3 bg-indigo-800 text-white hover:bg-white hover:text-indigo-800 text-sm uppercase">Add Todo</button>
     </form>
   </div>
 
